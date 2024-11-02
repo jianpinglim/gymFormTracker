@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4">
@@ -7,9 +9,11 @@ export default function Home() {
           GymAI
         </span>
       </h1>
-      <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
-        Get Started
-      </button>
+      <Link href="">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+          Get Started
+        </button>
+      </Link>
     </div>
   );
 }
