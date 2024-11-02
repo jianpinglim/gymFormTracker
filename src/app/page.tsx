@@ -94,6 +94,7 @@ export default function Home() {
             height={16}
           />
           Go to nextjs.org →
+          or not
         </a>
       </footer>
     </div>
