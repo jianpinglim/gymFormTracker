@@ -18,13 +18,13 @@ const Page = () => {
         
         {/* Placeholder rectangles with links */}
         <div className="flex gap-8">
-          <Link href="/shoulder-press" passHref>
+          <Link href="/pages/shoulder-press" passHref>
             <div className="w-60 h-40 bg-gray-300 rounded-lg overflow-hidden flex items-end justify-end p-3 cursor-pointer hover:bg-gray-400">
               <p className="font-bold text-xl">Shoulder Press</p>
             </div>
           </Link>
           
-          <Link href="/another-workout" passHref>
+          <Link href="/pages/bicepcurl">
             <div className="w-60 h-40 bg-gray-300 rounded-lg overflow-hidden flex items-end justify-end p-3 cursor-pointer hover:bg-gray-400">
               <p className="font-bold text-xl">Bicep Curls</p>
             </div>
